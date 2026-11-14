@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-sans: "DM Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-navy-950: #071329;
+  --color-navy-900: #0B1F3A;
+  --color-navy-800: #132F54;
+  --color-electric-600: #2563EB;
+  --color-electric-500: #3B82F6;
+  --color-accent-500: #F97316;
+  --color-accent-600: #EA580C;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    color: #0f172a;
+    background-color: #f8fafc;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.leaflet-container {
+  font-family: var(--font-sans);
+  z-index: 0;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 25px -5px rgb(15 23 42 / 0.14), 0 4px 10px -4px rgb(15 23 42 / 0.08);
+}
+
+.leaflet-popup-content {
+  margin: 0.75rem 0.9rem;
+}

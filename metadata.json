@@ -1,0 +1,6 @@
+{
+  "name": "FixMate",
+  "description": "Find. Fix. Feel Better. AI-powered home services and repair management platform connecting homeowners with verified local professionals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
